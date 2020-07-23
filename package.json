@@ -1,0 +1,23 @@
+{
+  "name": "stunning-disco",
+  "version": "1.0.0",
+  "description": "A cross platform music playlist sharing application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishcodes4/stunning-disco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishcodes4/stunning-disco/issues"
+  },
+  "homepage": "https://github.com/ashishcodes4/stunning-disco#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
