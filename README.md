@@ -1,2 +1,3 @@
 # stunning-disco
-A cross platform music playlist sharing application. 
+
+A web based cross platform music playlist sharing application.
