@@ -3,17 +3,31 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "dependencies": {
     "concurrently": "^5.2.0",
+    "connect-mongo": "^3.2.0",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
     "fetch": "^1.1.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "method-override": "^3.0.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
   }
 }
